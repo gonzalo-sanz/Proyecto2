@@ -1,0 +1,45 @@
+<!ELEMENT biblioteca (libros,revistas,periodicos)>
+<!ATTLIST biblioteca nombre CDATA #REQUIRED>
+<!--Libros-->
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (nombre_libro, paginas_libro, indice,sinopsis)>
+<!ATTLIST libro id ID #REQUIRED>
+<!ATTLIST libro tipo_clase (novela|infantil|didactico) #REQUIRED>
+<!ELEMENT nombre_libro (#PCDATA)>
+<!ELEMENT paginas_libro (#PCDATA)>
+<!ELEMENT indice (capitulo+)>
+<!ATTLIST capitulo numero CDATA #REQUIRED>
+<!ELEMENT capitulo (titulo,contenido_capitulo,paginas_capitulo)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido_capitulo (#PCDATA)>
+<!ATTLIST contenido_capitulo enlace CDATA #REQUIRED>
+<!ELEMENT paginas_capitulo (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!--Revista-->
+<!ELEMENT revistas (revista+)>
+<!ELEMENT revista (titulo_revista,numerorevista,indice_revista)>
+<!ATTLIST revista id ID #REQUIRED>
+<!ATTLIST revista tipo_clase (informatica|corazon|coches|investigacion) #REQUIRED>
+<!ELEMENT titulo_revista (#PCDATA)>
+<!ELEMENT numerorevista (#PCDATA)>
+<!ELEMENT indice_revista (seccion_revista+)>
+<!ELEMENT seccion_revista (contenido_revista)>
+<!ATTLIST seccion_revista titulo CDATA #REQUIRED>
+<!ATTLIST seccion_revista numeropaginas CDATA #REQUIRED>
+<!ELEMENT contenido_revista (#PCDATA)>
+<!ATTLIST contenido_revista informacion CDATA #REQUIRED>
+<!--Periodicos-->
+<!ELEMENT periodicos (periodico+)>
+<!ELEMENT periodico (nombre_periodico,indice_periodico)>
+<!ATTLIST periodico id ID #REQUIRED>
+<!ATTLIST periodico tipo_clase (nacional|internacional) #REQUIRED>
+<!ELEMENT nombre_periodico (#PCDATA)>
+<!ATTLIST nombre_periodico fecha_publicacion CDATA #REQUIRED>
+<!ELEMENT indice_periodico (seccion_periodico+)>
+<!ELEMENT seccion_periodico (articulo+)>
+<!ATTLIST seccion_periodico tipo_seccion CDATA #REQUIRED>
+<!ELEMENT articulo (nombre_articulo,contenido)>
+<!ATTLIST articulo nombre_autor CDATA #REQUIRED>
+<!ELEMENT nombre_articulo (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+<!ATTLIST contenido informacion CDATA #REQUIRED>

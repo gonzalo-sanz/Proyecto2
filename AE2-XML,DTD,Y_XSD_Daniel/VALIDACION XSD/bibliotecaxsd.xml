@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+
+<biblioteca  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation= "biblioteca.xsd"> 
+    
+
+    <libros>
+
+        <libro id="L0001" tipo_clase="novela">
+
+            <nombre_libro>El mercader de libros</nombre_libro>
+            <paginas_libro>250</paginas_libro>
+            <indice>
+
+                <capitulo numero="1">
+                    <titulo>El sacro imperio romano</titulo>
+                    <paginas_capitulo>50</paginas_capitulo>
+                    <contenido_capitulo enlace="https://www.Elmercaderdelibros.com/capituto1"> Capitulo1</contenido_capitulo>
+                    
+                </capitulo>
+                <capitulo numero="2">
+                    <titulo>Guadalquivir</titulo>                   
+                    <paginas_capitulo>30</paginas_capitulo>
+                    <contenido_capitulo enlace="https://www.Elmercaderdelibros.com/capituto1"> Capitulo1</contenido_capitulo>
+                </capitulo>
+
+
+            </indice>
+            <sinopsis>
+                Hubo un tiempo en que los libros podían descubrir nuevos mundos, tambalear los dogmas más sagrados
+                y cambiar el curso de la Historia.
+            </sinopsis>
+
+
+        </libro>
+
+
+        <libro id="L0002" tipo_clase="infantil">
+
+            <nombre_libro>David el dinosaurio</nombre_libro>
+            <paginas_libro>50</paginas_libro>
+            <indice>
+
+                <capitulo numero="1">
+                    <titulo>El dinusaurio</titulo>
+                    <paginas_capitulo>5</paginas_capitulo>
+                    <contenido_capitulo enlace="https://www.Davideldinosaurio.com/capituto1"> Capitulo1</contenido_capitulo>
+                </capitulo>
+                <capitulo numero="2">
+                    <titulo>David</titulo>
+                    <paginas_capitulo>3</paginas_capitulo>
+                    <contenido_capitulo enlace="https://www.Davideldinosaurio.com/capituto1"> Capitulo1</contenido_capitulo>
+                    
+                </capitulo>
+
+
+            </indice>
+            <sinopsis>
+                Cuento infantil sería un gran acompañante para la hora de dormir de los niños pequeños y está
+                repleto de imágenes coloridas y personajes memorables
+            </sinopsis>
+
+
+        </libro>
+
+    </libros>
+
+    <revistas>
+
+
+        <revista id="R0001" tipo_clase="informatica">
+
+            <titulo_revista>El informatico</titulo_revista>
+            <numerorevista>128</numerorevista>
+
+            <indice_revista>
+                <seccion_revista titulo="Software" numeropaginas="10">
+
+                    <contenido_revista informacion="www.Elinformatico.com/Software">Pruebas de Software</contenido_revista>
+
+
+                </seccion_revista>
+                <seccion_revista titulo="Hardware" numeropaginas="20">
+
+                    <contenido_revista informacion="www.Elinformatico.com/Hardware">Pruebas de Hardware.</contenido_revista>
+
+                </seccion_revista>
+
+
+            </indice_revista>
+
+        </revista>
+
+
+        <revista id="R0002" tipo_clase="corazon">
+
+            <titulo_revista>El informatico</titulo_revista>
+            <numerorevista>128</numerorevista>
+
+            <indice_revista>
+                <seccion_revista titulo="Paquirrin" numeropaginas="10">
+
+                    <contenido_revista informacion="https://www.ElTomate.com/cotilleos">Cotilleos varios</contenido_revista>
+
+
+                </seccion_revista>
+                <seccion_revista titulo="Salseo" numeropaginas="20">
+
+                    <contenido_revista informacion="https://www.ElTomate.com/salseo"> Salseos de famosos</contenido_revista>
+
+                </seccion_revista>
+
+
+            </indice_revista>
+
+        </revista>
+
+
+    </revistas>
+
+
+    <periodicos>
+
+
+        <periodico id="P0001" tipo_clase="nacional">
+            <nombre_periodico fecha_publicacion="2002-09-14">El País</nombre_periodico>
+
+
+            <indice_periodico>
+
+                <seccion_periodico tipo_seccion="deportes">
+                    <articulo nombre_autor="Butrageño">
+                        <nombre_articulo>La quinta del Buitre</nombre_articulo>
+
+                        <contenido informacion="www.Elpais.com/Butragueño">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Pepe Flores">
+                        <nombre_articulo>Rugby en colegios</nombre_articulo>
+
+                        <contenido informacion="www.Elpais.com/PepeFlores">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                    </articulo>
+
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="opinion">
+
+                    <articulo nombre_autor="Pepe Parra">
+
+                        <nombre_articulo> La noche de Madrid</nombre_articulo>
+
+                        <contenido informacion="www.Elpais.com/PepeParra">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Dolores Ibarra">
+                        <nombre_articulo>La sencillez del blanco</nombre_articulo>
+
+                        <contenido informacion="www.Elpais.com/DoloresIbarra">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+
+                    </articulo>
+
+
+                </seccion_periodico>
+
+
+            </indice_periodico>
+
+        </periodico>
+
+
+        <periodico id="P0002" tipo_clase="internacional">
+            <nombre_periodico fecha_publicacion="2002-09-24">El Mundo</nombre_periodico>
+
+
+            <indice_periodico>
+
+                <seccion_periodico tipo_seccion="deportes">
+                    <articulo nombre_autor="RobertoCarlos">
+                        <nombre_articulo>La quinta del Buitre</nombre_articulo>
+
+                        <contenido informacion="www.ElMundo.com/RobertoCarlos">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="John Smith">
+                        <nombre_articulo>Rugby en colegios</nombre_articulo>
+
+                        <contenido informacion="www.ElMundo.com/JohnSmith">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                    </articulo>
+
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="opinion">
+
+                    <articulo nombre_autor="Frank Sinatra">
+
+                        <nombre_articulo> La noche de  New York</nombre_articulo>
+
+                        <contenido informacion="www.ElMundo.com/FrankSinatra">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Pepe Pig">
+                        <nombre_articulo>El mundo rural</nombre_articulo>
+
+                        <contenido informacion="www.ElMundo.com/PepaPig">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+
+                    </articulo>
+
+                </seccion_periodico>
+
+
+            </indice_periodico>
+
+        </periodico>
+
+    </periodicos>
+
+
+
+
+
+</biblioteca>
